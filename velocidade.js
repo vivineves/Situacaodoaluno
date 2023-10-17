@@ -4,6 +4,7 @@ const resp = document.querySelector("h3")
 //ouvinte
 frm = addEventListener("submit", (e) =>{
     e.preventDefault()
+    
     const permitida = Number(frm.inPermitida.value)
     const condutor = Number(frm.inCondutor.value)
     let leve = permitida + (permitida * 0.2)
