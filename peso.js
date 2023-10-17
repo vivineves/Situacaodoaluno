@@ -1,6 +1,6 @@
 //cria referencial ao form
 const form = document.querySelector ("form")
-const resp = document.querySelector ("fh3")
+const resp = document.querySelector ("h3")
 
 //ouvinte
 form.addEventListener("submit", (e) => {
